@@ -1,0 +1,19 @@
+#email:focus {
+    background-color: lightgray;
+}
+
+#password:focus {
+    background-color: lightgray;
+}
+
+.register-header {
+    font-family: "Times New Roman", Times, serif;
+    color: #04AA6D;
+}
+
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}

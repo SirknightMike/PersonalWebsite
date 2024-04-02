@@ -6,6 +6,7 @@
         <meta name="keywords" content="Hobbies, HTML, CSS, Javascript">
         <meta name="author" content="Mike Hopkins">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./css/home-page.css" rel="stylesheet" />
         <style>
             table, th, td {
                 border: 1px solid black;
@@ -16,20 +17,20 @@
     </head>
     <body>
         <header>
-            <a href="#main-content" class="sr-only sr-only-focusable">Skip to main content</a>
+            <a href="/summary.html" class="sr-only sr-only-focusable">Skip to main content</a>
         </header>
         <nav>
-            <ul>
-                <li>My Hobbies</li>
-                <li>Foods I Enjoy Eating</li>
-                <li><a href="./register-page.html">Register</a></li>
+            <ul class="nav-bar-list">
+                    <li class="active"><a>My Hobbies </a></li>
+                    <li><a href="">Foods I Enjoy Eating </a></li>
+                    <li><a href="./register-page.html">Register</a></li>        
             </ul>
         </nav>
 
         <main>
-            <h1>Home Page</h1>
+            <h1 id="first-heading">Home Page</h1>
             <p>Paragraphs has a margin before and after</p>
-            <h2>Here is a table</h2>
+            <h2 class="sub-headers">Here is a table</h2>
             <br>
 
             <section>
@@ -73,7 +74,7 @@
     </section>
            <section>
             <div>
-                <h3>Here is my hobbies</h3>
+                <h3 class="sub-headers">Here is my hobbies</h3>
                 <ol>
                     <li>I play guitar</li>
                     <li>I like walking around</li>
@@ -84,7 +85,7 @@
     
             <section>
                 <div>
-                    <h3>Foods I enjoy eating</h3>
+                    <h3 class="sub-headers">Foods I enjoy eating</h3>
                     <uL>
                         <li>Spighetti</li>
                         <li>Spinach</li>

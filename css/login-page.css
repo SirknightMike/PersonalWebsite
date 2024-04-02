@@ -1,0 +1,18 @@
+#email:focus {
+    background-color: lightgray;
+}
+
+#password:focus {
+    background-color: lightgray;
+}
+
+.login-header {
+    color: #04AA6D;
+}
+
+input:invalid {
+    background-color: ivory;
+    border: none;
+    outline: 2px solid red;
+    border-radius: 5px;
+}
