@@ -7,7 +7,40 @@
 }
 
 .login-header {
-    color: #04AA6D;
+    background-color: #04AA6D;
+    color: white;
+    padding: 50px;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.vertical-aligment {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.gap-test {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button {
+    background-color: #04AA6D;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
 }
 
 input:invalid {
@@ -15,4 +48,19 @@ input:invalid {
     border: none;
     outline: 2px solid red;
     border-radius: 5px;
+}
+
+button {
+    color: #04AA6D;
+
+}
+
+
+
+html, body {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

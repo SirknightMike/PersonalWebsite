@@ -19,6 +19,16 @@
   .sub-headers {
     color: darkcyan;
 }
+
+.home-page-header {
+  display: flex;
+  justify-content: center;
+}
+
+.header-alignment {
+  display: flex;
+  flex-direction: column;
+}
   
 /* Element selectors */
 
@@ -38,11 +48,13 @@
     font-family: "Times New Roman", Times, serif;
   }
   
+ 
 
 /* Id selectors */
 
 #first-heading {
-    color: #04AA6D;
+  
+  color: #04AA6D;
 }
 
 
