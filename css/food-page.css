@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .item {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+  }
+  
+  h2 {
+    text-shadow: 2px ;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #333;
+  }
+  
+  p {
+    color: white;
+    text-indent: 50px;
+    word-spacing: 10px;
+    line-height: 0.8;
+  }
+  
+  .spaghetti {
+    background-image: url('../images/spaghetti.jpg');
+    background-size: cover;
+  }
+  
+  .spinach {
+    background-image: url('../images/spinach.jpg');
+    background-size: cover;
+  }
+  
+  .pumpkin {
+    background-image: url('../images/pumpkin.jpg');
+    background-size: cover;
+  }
+  
+  .braaivleis {
+    background-image: url('../images/braaivleis.jpg');
+    background-size: cover;
+  }
+  
