@@ -4,23 +4,25 @@
         <meta charset="utf-8">
         <title>Login Page</title>
         <link rel="stylesheet" href="./css/login-page.css">
+        <script src="./javascript/login-page.js"></script>
     </head>
     <body>
         <div class="login-container">
-            <div class="login-header">
+            <div id="heading" class="login-header">
                 <h1 >Login: </h1>
             </div>
             <div class="vertical-aligment">
-              
                 <form action="/home-page.html" method="post" class="gap-test">
                     <label for="email">Email</label><br>
                     <input type="email" id="email" name="email" required/><br>
-                    <label for="password">Password </label><br>
+                    <label for="password">Password</label><br>
                     <input type="password" id="password" name="password" required/><br>
                     <a href="/forgot-password-page.html">Forgot Password ?</a><br>
                     <input type="submit" value="Login" class="login-button">
+                    <div id="error-message" style="color: red;"></div>
                 </form>
             </div>
         </div>
+       
     </body>
 </html>
