@@ -33,7 +33,9 @@ function handleSubmit(event) {
     }
 
     // If validation passes, you can submit the form or perform other actions
-    // For example, you can submit the form using JavaScript:
+    setTimeout(() => {
+        output.textContent = "User successfully logged in";
+      }, 1000);
     event.target.submit();
 }
 

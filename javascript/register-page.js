@@ -36,6 +36,10 @@ function handleSubmit(event) {
         errorDiv.innerText = 'Password should be at least 6 characters long';
         return;
     }
+
+    setTimeout(() => {
+        output.textContent = "User successfully registered";
+      }, 1000);
     event.target.submit();
 }
 
